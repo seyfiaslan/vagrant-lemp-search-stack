@@ -8,7 +8,7 @@ A starting playbox for comparing ElasticSearch and Amazon Cloud Search.
 
 * [Cygwin](https://www.cygwin.com/) or any other ssh-capable terminal shell for the `vagrant ssh` command
 
-* [Amazon Cloud Search Account & Credentials] You can get free trial (https://console.aws.amazon.com/cloudsearch/home)
+* [AmazonCloudSearch](https://console.aws.amazon.com/cloudsearch/home) Get a Free Trial.
 
 ## Package includes
 
@@ -28,8 +28,6 @@ A starting playbox for comparing ElasticSearch and Amazon Cloud Search.
 
 https://vesselinv.com/lemp-with-vagrant/ (https://github.com/vesselinv/vagrant-lemp)
 
-
-
 ## How To Build
 
   Get Code
@@ -45,9 +43,9 @@ $ vagrant up --provision
 $ vagrant ssh
 Welcome to Ubuntu 14.04 LTS ...
 ...
-vagrant@vagrant:~$
-cd /home/vagrant/code/www
-php composer.phar install
+$ vagrant@vagrant:~$
+$ cd /home/vagrant/code/www
+$ php composer.phar install
 ```
 
     Edit credentials in  _/aws/config.php
