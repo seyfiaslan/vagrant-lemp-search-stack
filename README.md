@@ -12,9 +12,9 @@ A starting playbox for comparing ElasticSearch and Amazon Cloud Search.
 
 ## Package includes
 
-* [Php 5.5.9] php5-fpm, phpmyadmin
+* Php 5.5.9 (php5-fpm, phpmyadmin)
 
-* [Ubuntu 14.04]
+* Ubuntu 14.04
 
 * MySQL
 
@@ -43,12 +43,12 @@ $ vagrant up --provision
 $ vagrant ssh
 Welcome to Ubuntu 14.04 LTS ...
 ...
-$ vagrant@vagrant:~$
+vagrant@vagrant:~$
 $ cd /home/vagrant/code/www
 $ php composer.phar install
 ```
 
-    Edit credentials in  _/aws/config.php
+Edit credentials in  _/aws/config.php
 
 ```
 const KEY = "YOUR_KEY";
@@ -58,6 +58,7 @@ const SECRET = "YOUR_SECRET_KEY";
 
 ## Test The Code
 http://10.4.4.58/info.php
+
 http://10.4.4.58/index.php
 
 (You will get an exception code if you don't change your credentials)
